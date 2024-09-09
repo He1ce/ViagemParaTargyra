@@ -73,10 +73,10 @@ section button:active {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 80vh; /* Altura máxima da caixa de resultados */ 
+    height: auto; /* Altura máxima da caixa de resultados */ 
     overflow-y:auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
@@ -146,7 +146,6 @@ section button:active {
     border-radius: 0.6rem;
     background-color: #611561;
     padding: 0px;
-    margin-bottom: 10px;
 }
 
 .lista-item{
@@ -178,7 +177,6 @@ footer {
     background-color: #daa520; /* Cor de fundo do rodapé */
     color: #F5F7F8; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 1; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position:fixed; /* Posiciona o rodapé */
     bottom:0; /* Alinha ao fundo da página */
