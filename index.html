@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem para Targy'rá</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Viagem para Targy'rá</h1>
+        <p>Esta página é uma base de conhecimento sobre os personagens interpretados pelos players do RPG
+            criando por Will Andrade.
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <input type="text" placeholder="Insira o nome do personagem."id="campo-pesquisa">
+                <ul class="lista">
+                </ul>
+            </div>
+            <button onclick="pesquisar()">Pesquisar</button> 
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>Personagens de Viagem para Targy'rá - 2024</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="database.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
