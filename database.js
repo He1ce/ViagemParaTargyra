@@ -20,7 +20,7 @@ let dados = [{
     descricao: `Leslie Robin é uma típica garota de rivertown, que esconde um segredo mágico atrás de sua jaqueta preta. 
     Muito extrovertida e sincera, sempre está com seus amigos. Gosta muito de propor novas aventuras e atividades malucas 
     para o grupo, que, na maioria das vezes, acabam por acompanha-la. Foi a primeira do grupo a descobrir Targy'rá.`,
-    link: "https://www.instagram.com/b0nniebel/",
+    link: "https://www.instagram.com/str1d3rr/",
     foto: 'Imagens/Leslie.jpg'
 },
 {
